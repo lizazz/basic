@@ -1,0 +1,11 @@
+DirectoryIndex /www/index.php
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -f
+
+RewriteRule ^(.+) $1 [L]
+
+RewriteCond %{DOCUMENT_ROOT}/www%{REQUEST_URI} -f
+
+RewriteRule ^(.+) /www/$1 [L]

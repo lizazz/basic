@@ -1,0 +1,13 @@
+body { padding-top: 70px; }
+
+.footer {
+	background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+#forward{
+	position	: absolute;
+	top		: 25px;
+	right	: 15px;
+	color    : #d9d3cf;
+}
